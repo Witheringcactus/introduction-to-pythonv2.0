@@ -29,6 +29,22 @@ TEMPLATES: dict[str, dict] = {
         "wander":   True,
     },
 
+        "my_friend": {
+        "name":             "a wandering student",
+        "key_words":        ("student", "wandering"),
+        "room_description": "&wA wandering student meanders about aimlessly.&N",
+        "description": (
+            "A student with a faraway look, clearly lost in thought.\n"
+            "Or possibly just lost."
+        ),
+        "race":     "Human",
+        "class":    "Student",
+        "level":    1,
+        "stats":    [60, 65, 60, 80, 70, 75],
+        "aggro":    False,
+        "wander":   True,
+    },
+
     "void_guardian": {
         "name":             "the Void Guardian",
         "key_words":        ("guardian", "void"),
@@ -48,38 +64,6 @@ TEMPLATES: dict[str, dict] = {
         "position": "standing",
     },
 
-    
-    "George Washington": {
-    "name":             "George Washington",
-    "key_words":        ("Washington", "George"),
-    "room_description": (
-            "&XThe &+WGeorge Washington&N&X Stands forever in the position he was in when he crossed the delaware.&N"
-        ),
-        "description": (
-            "&XA A man in a suit.\n"
-            "Looking off into the distance&N&X.&N"
-        ),
-        "race":     "Human",
-        "class":    "President",
-        "level":    100,
-        "stats":    [1000, 1000, 1000, 1000, 1000, 1000],
-        "aggro":    False,
-        "wander":   False,
-        "position": "standing",
-    },
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     # kill=False — combat system refuses killing blow on this mob.
     "moted_pc": {
         "name":             "Moted",
