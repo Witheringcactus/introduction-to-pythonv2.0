@@ -48,6 +48,38 @@ TEMPLATES: dict[str, dict] = {
         "position": "standing",
     },
 
+    
+    "George Washington": {
+    "name":             "George Washington",
+    "key_words":        ("Washington", "George"),
+    "room_description": (
+            "&XThe &+WGeorge Washington&N&X Stands forever in the position he was in when he crossed the delaware.&N"
+        ),
+        "description": (
+            "&XA A man in a suit.\n"
+            "Looking off into the distance&N&X.&N"
+        ),
+        "race":     "Human",
+        "class":    "President",
+        "level":    100,
+        "stats":    [1000, 1000, 1000, 1000, 1000, 1000],
+        "aggro":    False,
+        "wander":   False,
+        "position": "standing",
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     # kill=False — combat system refuses killing blow on this mob.
     "moted_pc": {
         "name":             "Moted",
@@ -67,3 +99,26 @@ TEMPLATES: dict[str, dict] = {
 
 # Module-level spawn — rooms.py calls  M.spawn("void_guardian")
 spawn = make_spawner(TEMPLATES, lambda: Mob)
+
+
+
+
+
+"void_guardian": {
+    "name":             "the Void Guardian",
+    "key_words":        ("guardian", "void"),
+    "room_description": (
+            "&XThe &+WVoid Guardian&N&X stands watch, unblinking.&N"
+        ),
+        "description": (
+            "&XA towering figure of condensed darkness.\n"
+            "Its eyes are two cold points of &+Wwhite light&N&X.&N"
+        ),
+        "race":     "Unknown",
+        "class":    "Guardian",
+        "level":    50,
+        "stats":    [120, 100, 130, 90, 110, 50],
+        "aggro":    False,
+        "wander":   False,
+        "position": "standing",
+    },
