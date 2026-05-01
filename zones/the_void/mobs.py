@@ -30,9 +30,9 @@ TEMPLATES: dict[str, dict] = {
     },
 
         "my_friend": {
-        "name":             "a wandering student",
-        "key_words":        ("student", "wandering"),
-        "room_description": "&wA wandering student meanders about aimlessly.&N",
+        "name":             "my beautiful student",
+        "key_words":        ("beautiful", "student"),
+        "room_description": "&wA beautiful student meanders about aimlessly.&N",
         "description": (
             "A student with a faraway look, clearly lost in thought.\n"
             "Or possibly just lost."
