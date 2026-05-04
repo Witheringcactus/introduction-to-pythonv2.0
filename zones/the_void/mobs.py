@@ -37,10 +37,10 @@ TEMPLATES: dict[str, dict] = {
             "It is very soft and chubby.\n"
             "It seems like it standing on some cheese."
         ),
-        "race":     "Human",
-        "class":    "Student",
-        "level":    1,
-        "stats":    [60, 65, 60, 80, 70, 75],
+        "race":     "animal",
+        "class":    "weasel",
+        "level":    50,
+        "stats":    [60, 100, 60, 100, 75, 100],
         "aggro":    False,
         "wander":   True,
     },
