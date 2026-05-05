@@ -63,7 +63,21 @@ TEMPLATES: dict[str, dict] = {
         "wander":   False,
         "position": "standing",
     },
-
+    "Adam Sandler": {
+        "name":             "Adam Sandler",
+        "key_words":        ("Adam", "Sandler"),
+        "room_description": "&wAdam Sandler wanders about aimlessly.&N",
+        "description": (
+            "A comedian with a faraway look, clearly lost in thought.\n"
+            "Or possibly just drunk."
+        ),
+        "race":     "Human",
+        "class":    "Comedian",
+        "level":    10,
+        "stats":    [0, 16, 60, 32, 7, 7],
+        "aggro":    True,
+        "wander":   True,
+    },
 }
 
 # Module-level spawn — rooms.py calls  M.spawn("void_guardian")
