@@ -27,6 +27,23 @@ TEMPLATES: dict[str, dict] = {
         "aggro": False,
         "wander": True,
     },
+    "escbaalion": {
+        "name": "Escbaalion",  # The c is silent
+        "key_words": ("Escbaalion"),
+        "room_description": "&gEscbaalion&N &wlicks his eyeball.&N",
+        "description": (
+            "A humanoid lizard. He is &gdark-green&N, and has a short\n"
+            "&Ccyan sail&N that runs from the top of his head to the end of his tail.\n"
+            "He wears an almost &Xblack cloak&N, but wears &Rno&N pants.\n"
+            "A &ybrown leather satchel&N is slung over his shoulder.\n"
+            "Only &ghe&N knows what is inside his &ybag&N. . . ."
+        ),
+        "race": "Lizaroid",
+        "class": "Sorcerer",
+        "level": 10,
+        "stats": [80, 50, 200, 90, 90, 70],
+    },
+    },
     "void_dragon": {
         "name": "Inanis the Void Dragon",
         "key_words": ("inanis"),
@@ -105,16 +122,39 @@ TEMPLATES: dict[str, dict] = {
         "name":             "weasel",
         "key_words":        ("weasel"),
         "room_description": "&wA Weasel floats here randomly.&N",
-        "description": (
-            "It is very soft and chubby.\n"
+        "description": ("
+            "It is very soft and chubby.\n",
             "It seems like it standing on some cheese."
+<<<<<<< HEAD
         ),
         "race":     "animal",
         "class":    "weasel",
         "level":    50,
         "stats":    [60, 100, 60, 100, 75, 100],
+=======
+        },
+        "race":     "non_human",
+        "class":    "Weasel",
+        "level":    50,
+        "stats":    [100, 100, 100, 90, 90, 100],
+>>>>>>> 35107d649d4e6c4d4fdc2ab53e3dc231b54d4907
         "aggro":    False,
-        "wander":   True,
+        "wander":   False,
+    },
+    "Nessie": {
+        "name":             "Nessie",
+        "key_words":        ("Nessloc", "Nessie"),
+        "room_description": "&wA A green animal that swims in The Void peacefully and powerfully.&N",
+        "description": (
+            "A green creature that has a cute look to it's face.\n"
+            "It seems to be eating a metallic weapon... or just a radioactive core."
+        ),
+        "race":     "non_human",
+        "class":    "Nessie",
+        "level":    50,
+        "stats":    [100, 100, 100, 90, 90, 100],
+        "aggro":    False,
+        "wander":   False,
     },
     "wandering_teacher": {
         "name":             "a wandering teacher",
