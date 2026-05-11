@@ -42,7 +42,7 @@ ROOMS: dict[int, Room] = {
             "terrain": "no ground",
             "exits": [
                 {"direction": "north", "roomId": 1},
-                {"direction": "south", "roomId": 1},
+                {"direction": "south", "roomId": 4},
             ],
             "objects": [
                 O.spawn("silken_sack"),
@@ -69,9 +69,37 @@ ROOMS: dict[int, Room] = {
         {
             "number": 4,
             "name": "&MThe Great Gathering&N",
+<<<<<<< HEAD
             "description": "       All of our wonderful mods"
         }
             
         
     )
+=======
+            "description": "    All of our wonderful mobs are in this room\narern't they so pretty!",
+            "indoors": False,
+            "terrain": "no ground",
+            "exits": [
+                {"direction": "north", "roomId": 1},
+                {"direction": "south", "roomId": 1},
+            ],
+            "mobs": [
+                M.spawn("void_dragon"),
+                M.spawn("Adam Sandler"),
+                M.spawn("Citadel Guard"),
+                M.spawn("void_guardian"),
+                M.spawn("my_friend"),
+                M.spawn("wandering_teacher"),
+                M.spawn("Nessie"),
+                M.spawn("weasel"),
+                M.spawn("Shrimpman"),
+                M.spawn("Red kobold"),
+                M.spawn("Mr. Carlson"),
+                M.spawn("Lucas"),
+                M.spawn("escbaalion"),
+                M.spawn("wandering_student"),
+            ],
+        }
+    ),
+>>>>>>> 34fcd46834ed34095f4816862f083b903b8e0d31
 }
