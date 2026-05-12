@@ -12,59 +12,18 @@ from ashenmoor.world import Mob
 from ashenmoor.world.zone import make_spawner
 
 TEMPLATES: dict[str, dict] = {
-    "wandering cheezi student": {
-        "name": "a wandering student",
-        "key_words": ("student", "wandering"),
-        "room_description": "&wA wandering student meanders about aimlessly.&N",
-        "description": (
-            "A student with a faraway look, clearly lost in thought.\n"
-            "Or possibly just lost."
-        ),
+    "mr_mob": {
+        "name": "Mr Mob",
+        "key_words": ("mr", "mob"),
+        "room_description": "wondering in the forest",
+        "description": ("This mob was spawned from homework"),
         "race": "Human",
         "class": "Student",
-        "level": 1,
-        "stats": [60, 65, 60, 80, 70, 75],
+        "level": 10,
+        "stats": [70, 65, 60, 80, 70, 95],
         "aggro": False,
         "wander": True,
     },
-<<<<<<< HEAD
-
-
-
-
-        "the cheese monster": {
-        "name": "the cheese monster",
-        "key_words": ("cheese", "monster"),
-        "room_description": "&Wthe&N &yc&Yh&N&ye&Ye&N&ys&Ye&N &bmonster &Wsleeps here&N",
-        "description": (
-            "a cheese monster thinking into space "
-            "most likely thinking about &msleep..."
-        ),
-        "race": "cheese",
-        "class": "scary guy",
-        "level": "29",
-        "stats": [46, 59, 65, 55, 75, 80],
-        "aggro": False,
-        "wander": False,
-    },
-
-     "the cheez sniffer": {
-        "name": "the &yc&Yh&N&ye&Ye&N&ys&Ye&N sniffer",
-        "key_words": ("cheese", "sniffer"),
-        "room_description": "&Wthe&N &yc&Yh&N&ye&N&ys&Ye&N &bsniffer &Wsniffs around here&N",
-        "description": (
-            "a cheese sniffer sniffing around "
-            "most likely sniffing about &msleep..."
-        ),
-        "race": "cheese",
-        "class": "sniffr guy",
-        "level": "14",
-        "stats": [10 ,48 ,23 ,92 ,16 ,82 ],
-        "aggro": False,
-        "wander": True,
-        },
-
-=======
     "Shrimpman": {
         "name": "Shrimpman",
         "key_words": ("shrimp"),
@@ -77,7 +36,6 @@ TEMPLATES: dict[str, dict] = {
         "aggro": False,
         "wander": True,
     },
->>>>>>> 7e6b0d66c56fcf65e146dc459fdf2278a582c9be
 }
 
 # Module-level spawn — rooms.py calls  M.spawn("void_guardian")
