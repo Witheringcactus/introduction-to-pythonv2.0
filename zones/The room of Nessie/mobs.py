@@ -28,9 +28,9 @@ TEMPLATES: dict[str, dict] = {
         "wander": False,
     },
 
-    "Nessie": {
-    "name": "Nessie",
-    "key_words": ("Nessloc", "Nessie"),
+    "Green Nessie": {
+    "name": "Green Nessie",
+    "key_words": ("Green", "Nessie"),
     "room_description": "&wA A green animal that swims in The Void peacefully and powerfully.&N",
     "description": (
         "A green creature that has a cute look to it's face.\n",
