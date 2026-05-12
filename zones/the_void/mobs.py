@@ -120,15 +120,15 @@ TEMPLATES: dict[str, dict] = {
 
     },
     "Nessie": {
-        "name": "Nessie",
-        "key_words": ("Nessloc", "Nessie"),
-        "room_description": "&wA A green animal that swims in The Void peacefully and powerfully.&N",
+        "name": "Green Nessie",
+        "key_words": ("Green", "Nessie"),
+        "room_description": "&wA &ggreen&N &Wanimal&N that swims in &WThe Void&N &cpeacefully&N and &rpowerfully.&N",
         "description": (
             "A green creature that has a cute look to it's face.\n",
             "It seems to be eating a metallic weapon... or just a radioactive core.",
         ),
-        "race": "non_human",
-        "class": "Nessie",
+        "race": "Nessie",
+        "class": "Animal",
         "level": 50,
         "stats": [100, 100, 100, 90, 90, 100],
         "aggro": False,
