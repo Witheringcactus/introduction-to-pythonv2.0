@@ -122,7 +122,7 @@ TEMPLATES: dict[str, dict] = {
     "Nessie": {
         "name": "Green Nessie",
         "key_words": ("Green", "Nessie"),
-        "room_description": "&wA &ggreen&N &Wanimal&N that swims in &WThe Void&N &cpeacefully&N and &rpowerfully.&N",
+        "room_description": "&wA &ggr&Geen&N &Wanimal&N that swims in &WThe Void&N &cpeacefully&N and &rpowerfully.&N",
         "description": (
             "A green creature that has a cute look to it's face.\n",
             "It seems to be eating a metallic weapon... or just a radioactive core.",
