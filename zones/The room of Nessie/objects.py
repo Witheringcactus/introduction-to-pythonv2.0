@@ -18,7 +18,7 @@ TEMPLATES: dict[str, dict] = {
     "Titan Battery": {
         "spawn_as":         Item,
         "name":             "a &+WA &+gTitan Battery&N",
-        "key_words":        ("tattered", "silken", "sack"),
+        "key_words":        ("Titan", "Battery", "Radioactive"),
         "room_description": "A &+WA &+gTitan Battery&N lies here, powered down and unable to be used.",
         "description":      "The battery seems to have been worn down over time.",
         "weight":           7,
