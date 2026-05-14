@@ -19,3 +19,10 @@ ZONE = Zone(
     object_templates = OBJECT_TEMPLATES,
     mob_templates    = MOB_TEMPLATES,
 )
+
+ZONE = Zone(
+    name             = "Travelers Tavern",
+    rooms            = ROOMS,
+    object_templates = OBJECT_TEMPLATES,
+    mob_templates    = MOB_TEMPLATES,
+)
