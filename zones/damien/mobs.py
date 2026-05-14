@@ -12,19 +12,17 @@ from ashenmoor.world import Mob
 from ashenmoor.world.zone import make_spawner
 
 TEMPLATES: dict[str, dict] = {
-    "still_student": {
-        "name": "a still student",
-        "key_words": ("student", "still"),
-        "room_description": "&wA child in a school uniform floats here, not a thought in their mind.&N",
-        "description": (
-            "A student with an empty look."
-        ),
-        "race": "Human",
-        "class": "Student",
-        "level": 1,
-        "stats": [60, 65, 60, 80, 70, 75],
-        "aggro": False,
-        "wander": False,
+    "shadow_gremlin": {
+        "name": "a shadow gremlin",
+        "key_words": ("shadow", "gremlin"),
+        "room_description": "a small black thing scurries about",
+        "description": ("A small creature. It is almost completely black except for its tiny white eyes"),
+        "race": "Gremlin",
+        "class": "",
+        "level": 15,
+        "stats": [75, 75, 75, 75, 75, 75],
+        "aggro": True,
+        "wander": True,
     },
         "void_dragon": {
         "name": "Inanis the Void Dragon",
@@ -38,7 +36,7 @@ TEMPLATES: dict[str, dict] = {
         "level": 50,
         "stats": [100, 100, 100, 100, 100, 100],
         "aggro": False,
-        "wander": True,
+        "wander": False,
     }
 }
 

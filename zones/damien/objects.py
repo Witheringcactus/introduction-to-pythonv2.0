@@ -30,17 +30,15 @@ TEMPLATES: dict[str, dict] = {
         "description":      "The bag looks simple. It is a brown canvas. When you look inside you see a black void.",
         "weight":           2,
     },
-    "windsong" : {
+    "sword_that_seals_the_darkness" : {
         "spawn_as":         Weapon,
-        'name': "&+ga &wg&Wl&wi&Wtt&wer&Wi&wng &N&+gelven scimitar&N",
-        'key_words': ('scimitar', 'elven', 'glittering'),
-        'room_description': "&+gA glittering elven scimitar is lying on the ground here.&N",
-        'description': """&+gIts blade encrusted with diamond dust, this magically light
-&+gelven blade glitters in the sunlight and seems to hum softly
-&+gwhen wielded in battle.&N""",
-        "weight":           3,
-        "dice":             "2d8",
-        "hitroll":          2,
+        'name': "&WT&Yh&We &YS&Ww&Yo&Wr&Yd &Wt&Yh&Wa&Yt &WS&Ye&Wa&Yl&Ws &Yt&Wh&Ye &RDarkness&N",
+        'key_words': ('sword', 'seals', 'darkness'),
+        'room_description': "&WT&Yh&We &YS&Ww&Yo&Wr&Yd &Wt&Yh&Wa&Yt &WS&Ye&Wa&Yl&Ws &Yt&Wh&Ye &WD&Ya&Wr&Yk&Wn&Ye&Ws&Ys&N lies here. Its light &Cilluminates&N the ground around it.",
+        'description': "The sword is beautiful. It was forged by the Elves as a tool against the Great Darkness. It glows softly with divine, bluish light",
+        "weight":           5,
+        "dice":             "6d8",
+        "hitroll":          4,
         "damroll":          4,
     },
 

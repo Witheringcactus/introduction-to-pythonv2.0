@@ -30,7 +30,7 @@ ROOMS: dict[int, Room] = {
             ],
             "objects": [
                 O.spawn("sack_of_darkness"),
-                O.spawn("windsong"),
+                O.spawn("sword_that_seals_the_darkness"),
             ],
             "mobs": [M.spawn("void_dragon")],  # two independent students
         }
