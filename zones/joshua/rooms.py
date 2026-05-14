@@ -18,7 +18,7 @@ ROOMS: dict[int, Room] = {
     1: Room(
         {
             "number": 1,
-            "name": "Tierra del Camino",
+            "name": "&CTierra del Camino&N",
             "description": "The Land of the Way.\nYou will soon learn of the Way.",
             "indoors": False,
             "terrain": "A flat expanse of mostly flat ground",
