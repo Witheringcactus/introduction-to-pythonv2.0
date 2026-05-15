@@ -17,6 +17,7 @@ TEMPLATES: dict[str, dict] = {
         "key_words": ("Escbaalion"),
         "room_description": "&gEscbaalion&N licks his eyeball.",
         "description": (
+            "(The 'c' is silent)\n"
             "A humanoid lizard. He is &gdark-green&N, and has a short\n"
             "&Ccyan sail&N that runs from the top of his head to the end of his tail.\n"
             "He wears an almost &Xblack cloak&N, but wears &Rno&N pants.\n"
